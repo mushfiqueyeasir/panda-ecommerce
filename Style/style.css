@@ -1,0 +1,199 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Lobster&family=Manrope&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500&family=Yeseva+One&display=swap');
+
+
+:root {
+    --headerColor: #FFFFFF;
+    --bannerColor: #FEEAE9;
+    --bannerButtonColor: linear-gradient(to right top, #ff589b, #ff4c91, #ff3e86, #ff2d7b, #ff136f);
+
+    --watchCatagoryColor: linear-gradient(to right top, #ff9c35, #ffa92e, #ffb527, #ffc31f, #ffd019);
+    --bagCatagoryColor: linear-gradient(to right top, #ff589b, #ff4c91, #ff3e86, #ff2d7b, #ff136f);
+    --shoesCatagoryColor: linear-gradient(to right top, #4289ff, #2274ff, #0c5dff, #2240ff, #3f07f8);
+
+    --bodyColor: #F4F4F4;
+    --seeAllButtonColor: #FF9D00;
+    --buyNowButtonColor: #000000;
+    --titleColor:#1F1F1F;
+    --paragraph: #4E4E4E;
+    --catagoryColor: #FFFFFF;
+  }
+
+  /* header styles */
+  header{
+      background-color: var(--headerColor);
+  }
+.bg-banner{
+      background-color: var(--bannerColor);
+      border-radius: 20px;
+  }
+  .carousel h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 84px;
+    color: var(--titleColor);      
+  }
+  .carousel p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--titleColor);
+    width: 456px;     
+  }
+  .carousel h2{
+    font-family: 'Poppins', sans-serif;
+      font-size: 41px;
+      font-weight: 500;
+      color: #FF136F ;      
+  }
+  .carousel button{
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: #FFFFFF ;      
+  }
+  
+.btn-banner{
+    color: #FFFFFF;
+    background-image: var(--bannerButtonColor);
+    border-color: #ff136f;
+  }
+
+  /* product catagory styles */
+  .watch-bg{
+      text-decoration: none;
+      background-image: var(--watchCatagoryColor);
+      border-radius: 20px;
+      border-color: #ffc31f;
+
+  }  
+  .bag-bg{
+    text-decoration: none;
+    background-image: var(--bagCatagoryColor);
+    border-radius: 20px;
+    border-color: #ff589b;
+  }
+  .shoe-bg{
+    text-decoration: none;
+    background-image: var(--shoesCatagoryColor);
+    border-radius: 20px;
+    border-color: #2240ff;
+  }
+  .hw{      
+      max-width: 97px;
+  }
+  .catagory>h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--catagoryColor);
+
+  }
+
+/* product cards styles */
+  main{
+      background-color: var(--bodyColor);
+  }
+  h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: var(--titleColor);
+  }
+  .product>a{
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      color: var(--seeAllButtonColor);
+
+  }
+
+  .card-image-width{
+      height: 270px;
+      width: 185px;
+  }
+  .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .card-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+  }
+  .card-footer{
+      background-color: #FFFFFF;
+      border-top:0;
+      padding: 0;
+  }
+  .card-footer>h3{   
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.card-footer>button{   
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+}
+
+  .btn-buy {
+    color: #FFFFFF;
+    background-color: var(--buyNowButtonColor);
+    border-color: var(--buyNowButtonColor);
+  }
+
+  .border-round{
+      border-radius: 20px;
+  }
+  
+  /* contact style */
+  #contact{
+      background-color: var(--bannerColor);
+      height: 48.5vh;
+      border-radius: 20px;
+  }
+  #contact h1{
+    font-size: 1.66em;
+    line-height: 45px;
+  }
+  #contact p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    line-height: 24px;
+    color: #707070;
+  }
+
+
+  #contact input[type=text]{        
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.3em;
+      font-weight: 400;
+  }
+
+  #contact button{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+
+
+
+  
