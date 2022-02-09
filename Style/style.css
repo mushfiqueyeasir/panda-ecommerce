@@ -27,6 +27,16 @@
       background-color: var(--bannerColor);
       border-radius: 20px;
   }
+/* navigation bar style */
+.form-control {
+  width: 30%;
+  font-size: 1.2rem;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 2rem;
+}
+
   .carousel h1{
     font-family: 'Poppins', sans-serif;
     font-size: 56px;
